@@ -1,70 +1,98 @@
 
 #navbar{
-  width:1000px;
-  height:70px;
-  background:linear-gradient(to right ,gray , white);
-}
-#travelRecommendation{
-  font-family:Brush Script MT, Brush Script Std, cursive;
-  font-size:20px;
-  font-weight:bold;
-}
-#Home{
-  font-family:Trebuchet MS, sans-serif;
- position:relative; 
- left:110px;
- font-weight:bold;
-}
-Home:hover{
-  cursor:pointer;
-  background-color:lightcyan;
-}
-#About_us{
-  font-family:Trebuchet MS, sans-serif;
-  font-weight:bold;
-  position:relative; 
- left:120px;
-}
-About_us:hover{
-    cursor:pointer;
-  background-color:lightcyan;
-}
-#Contact_us{
-  font-family:Trebuchet MS, sans-serif;
-  font-weight:bold;
-  position:relative; 
- left:125px;
-}
-Contact_us:hover{
-    cursor:pointer;
-  background-color:lightcyan;
-}
-#searchbar{
-    background-color:white;
-    width:300px;
-    border-style:solid;
-    border-radius:50px;
-    border-width:3px;
-    padding:5px;
+    width: 10000pxpx;
+    height:70px;
+    background:linear-gradient(to right ,gray , white);
+  }
+  #travelRecommendation{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size:20px;
+    font-weight:bold;
+  }
+  #Home{
+    font-family:Trebuchet MS, sans-serif;
+   position:relative; 
+   left:400px;
+   font-weight:bold;
+  }
+  #Home:hover{
+     cursor:pointer;
+    font-weight:bold;
+    background-color:lightblue
+  }
+  #About_us{
+    font-family:Trebuchet MS, sans-serif;
+    font-weight:bold;
+    position:relative; 
+   left:450px;
+  }
+  #About_us:hover{
+      cursor:pointer;
+    font-weight:bold;
+    background-color:lightblue
+  }
+  #Contact_us{
+    font-family:Trebuchet MS, sans-serif;
+    font-weight:bold;
+    position:relative; 
+    left:490px;
+  }
+  #Contact_us:hover{
+      cursor:pointer;
+    font-weight:bold;
+    background-color:lightblue
+  }
+  #searchbar{
+      background-color:white;
+      width:300px;
+      border-style:solid;
+      border-radius:50px;
+      border-width:3px;
+      padding:5px;
+      position:relative;
+      left:1100px;
+      bottom:25px;
+  }
+  #search{
+    font-family:Didot, serif;
+   font-weight:bold;
+   position:relative;
+   left:10px;
+  }
+  #Clear{
+    font-family:Didot, serif;
+   font-weight:bold;
     position:relative;
-    left:600px;
-    bottom:25px;
-}
-#search{
-  font-family:Didot, serif;
- font-weight:bold;
- position:relative;
- left:10px;
-}
-#Clear{
-  font-family:Didot, serif;
- font-weight:bold;
-  position:relative;
-   left:20px;
-}
-#text{
-  border-style:none;
-  
-  position:relative;
-  left:30px;
-}
+     left:20px;
+  }
+  #text{
+    border-style:none;
+    
+    position:relative;
+    left:30px;
+  }
+  #mainpage{
+      background-image: url("bahamas.jpg.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      height: 1000px;
+      width:10000px;
+      position: absolute;
+    }
+    #p1{
+   color:black;
+   font-family:Trebuchet MS, sans-serif;
+   font-size:60px; 
+   font-weight:bold;
+      position:relative;
+    }
+    #p2{
+     color:white;
+   font-family:Trebuchet MS, sans-serif;
+   font-size:20px; 
+   font-weight:bold; 
+   position:relative;
+   bottom:40px;
+    }
